@@ -6,7 +6,6 @@ py_test(
   srcs = [
     "test_ns.py",
   ],
-  #legacy_create_init=False,  # don't create __init__.py directories which break google.*
   deps = [
     requirement("google-cloud-datastore"),
     requirement("google-cloud-bigquery"),
